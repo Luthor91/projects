@@ -72,9 +72,16 @@ const projects = [
     {
         name: "WakfuTeamBuilder",
         description: "Application Web simple permettant d'aider les joueurs de Wakfu à construire leur équipe.",
-        extendedDescription: "WakfuTeamBuilder est une application encore en cours d'amélioration permettant d'avoir des informations sur son équipe de personnage sur le MMORPG Wakfu, l'application permet de lister les points fort et faible de l'équipe. Liens de l'application : https://luthor91.github.io/WakfuTeamBuilder/builder/",
+        extendedDescription: "WakfuTeamBuilder est une application terminé et disponible à tous permettant d'avoir des informations sur son équipe de personnage sur le MMORPG Wakfu, l'application permet de lister les points fort et faible de l'équipe. Liens de l'application : https://luthor91.github.io/WakfuTeamBuilder/builder/",
         technologies: ["Javascript", "Makefile"],
         link: "https://github.com/Luthor91/WakfuTeamBuilder"
+    },
+    {
+        name: "WakfuDraft",
+        description: "Application Web poussée, permettant d'aider les joueurs de Wakfu à construire leur équipe.",
+        extendedDescription: "WakfuDraft est une application en cours, la refonte de WakfuTeamBuilder, l'application aura les mêmes features que l'ancienne avec une gestion des comptes utilisateur, un panel admin et géré comme un projet sérieux avec un hébergement et un réel nom de domaine. L'application est actuellement terminé, il ne reste que l'hébergement.",
+        technologies: ["Typescript", "Golang", "API REST", "Vue", "Docker", "Bash", "Postgresql", "Makefile"],
+        link: "https://github.com/Luthor91/WakDraft"
     },
     // Projets en équipe
     {

@@ -18,5 +18,5 @@ serve:
 
 deploy: 
 	@git add .
-	@git commit -m "update news data"
+	@git commit -m "update data"
 	@git push $(GIT_REPO)
