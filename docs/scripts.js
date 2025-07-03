@@ -97,7 +97,7 @@ const projects = [
         extendedDescription: "Webradio MIDI est une application développée dans le cadre d'un hackathon de trois jours, permettant de gérer la diffusion des playlists pour une chaîne d'hôtel. L'application est structurée autour du modèle MVC, offrant une gestion fluide des playlists en fonction de l'heure et du jour. Le projet a été testé rigoureusement pour respecter les normes de cybersécurité et peut être facilement installé et déployé via Docker.",
         technologies: ["Golang", "React", "Docker", "API REST"],
         link: "#"
-    }
+    },
     {
         name: "GESCO",
         description: "Application permettant de gérer des organismes.",
