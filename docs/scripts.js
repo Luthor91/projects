@@ -98,6 +98,13 @@ const projects = [
         technologies: ["Golang", "React", "Docker", "API REST"],
         link: "#"
     }
+    {
+        name: "GESCO",
+        description: "Application permettant de gérer des organismes.",
+        extendedDescription: "Chez Ouidou, j'ai contribué au développement d'un module de Controle sur les organismes dans l'application GESCO. L'application permet de gérer l'équivalent des impôts pour les organismes sociaux. Le développement de l'application à demandé de l'optimisation de certaines parties du code afin d'éviter au client d'avoir une mauvaise expérience.",
+        technologies: ["Symfony", "Angular", "Docker", "API REST", "Postgresql", "Bash"],
+        link: "#"
+    }
 ];
 
 // Fonction pour afficher la liste des projets avec des descriptions extensibles
