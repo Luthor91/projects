@@ -3,14 +3,14 @@ const projects = [
         name: "Discord_TenshiBot",
         description: "Un bot discord de modération avancée principalement.",
         extendedDescription: "Discord_TenshiBot est un bot de modération avancée pour Discord, permettant de gérer efficacement les serveurs via des commandes personnalisées. Le projet utilise des techniques de parsing pour interpréter les commandes des utilisateurs et intègre les API Discord et Riot Games pour des données du jeu. L'installation sur une machine Linux est automatisée via un script bash, et la compilation du projet est facilitée par un Makefile. De plus, le bot prend en charge des actions asynchrones pour répondre aux commandes sans interruption des autres tâches.",
-        technologies: ["Golang", "API REST", "Postgresql", "Shell", "Makefile"],
+        technologies: ["Golang", "API REST", "Postgresql", "Bash", "Makefile"],
         link: "https://github.com/Luthor91/Discord_TenshiBot"
     },
     {
         name: "RPG 2D",
-        description: "Un jeu RPG en 2d.",
-        extendedDescription: "Projet encore en cours, compétences en gestion de projet employés.",
-        technologies: ["GdScript", "OOP", "Godot Engine", "LLMS"],
+        description: "Jeu RPG en cours",
+        extendedDescription: "Projet encore en cours, demande des connaissances en animation, rendu lumière, cohérence de gameplay.",
+        technologies: ["GdScript", "Godot Engine"],
         link: "/"
     },
     {
@@ -45,7 +45,7 @@ const projects = [
         name: "Utilitaire_Database_PGSQL",
         description: "Utilitaire de gestion de base de données et de visualisation de données.",
         extendedDescription: "Utilitaire_Database_PGSQL est une application graphique permettant de gérer une base de données PostgreSQL de manière visuelle. L'utilisateur peut créer, modifier et supprimer des tables, ainsi que gérer les utilisateurs et leurs permissions. En outre, l'application inclut des fonctionnalités de visualisation graphique des données, permettant de créer des graphiques à partir des résultats des requêtes SQL pour une analyse visuelle plus intuitive.",
-        technologies: ["Godot Engine", "Postgresql"],
+        technologies: ["Godot Engine", "Gdscript", "Postgresql"],
         link: "https://github.com/Luthor91/Utilitaire_Database_PGSQL"
     },
     {
@@ -57,14 +57,14 @@ const projects = [
     },
     {
         name: "AppGestionCours",
-        description: "Application permettant de gérer des inscriptions et des planifications de cours.",
+        description: "Application basique permettant de gérer des inscriptions et des planifications de cours.",
         extendedDescription: "AppGestionCours est une application conçue pour faciliter la gestion des inscriptions et la planification des cours. Elle utilise une architecture MVC pour séparer les différentes couches du projet et exploite Redis pour le cache afin d'améliorer la performance des requêtes. L'application permet aux administrateurs d'organiser les cours, de gérer les inscrits, et de générer des horaires en fonction des disponibilités, tout en assurant un accès rapide grâce au cache.",
         technologies: ["Golang", "Postgresql", "Redis", "API REST"],
         link: "https://github.com/Luthor91/AppGestionCours"
     },
     {
         name: "NetworkScanner",
-        description: "Application permettant de gérer d'avoir des informations sur les machines présent sur son réseau.",
+        description: "Application basique en cours permettant de gérer d'avoir des informations sur les machines présent sur son réseau.",
         extendedDescription: "NetworkScanner est une application encore en cours de développement permettant d'avoir des informations sur son réseau, l'application sort un fichier .json qui sera amené à être analysé par une page Web.",
         technologies: ["Java", "Swing", "Maven", "Réseau"],
         link: "https://github.com/Luthor91/NetworkScanner"
