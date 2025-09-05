@@ -109,14 +109,14 @@ const projects = [
         name: "Innovarc",
         description: "Application permettant de gérer des projets médicaux et leurs membres.",
         extendedDescription: "Innovarc est une application développée pour la gestion de projets dans le domaine médical. Elle permet de créer, suivre et valider des projets tout en gérant les rôles attribués aux membres. Dans le cadre de ma mission avec Ouidou, j’ai traité des tickets de support, corrigé des bugs visuels et étudié la refonte de la gestion des rôles. L’architecture repose sur Symfony en back-end et Twig pour l’interface, avec une base MySQL 5.7.",
-        technologies: ["Symfony", "Twig", "MySQL", "Docker", "API REST", "Typescript"],
+        technologies: ["Symfony", "Twig", "MySQL", "Docker", "API REST"],
         link: "#"
     },
     {
         name: "GESCO",
         description: "Application de gestion des cotisations des organismes de logement social.",
         extendedDescription: "GESCO (Gestion des Cotisations des Organismes de Logement Social) est une application permettant aux organismes de logement social de déclarer et payer leurs cotisations. Dans le cadre de ma mission avec Ouidou, j’ai contribué au développement backend (Symfony, PostgreSQL), participé à la refonte et au débogage de modules métier, et intégré des optimisations techniques afin de fiabiliser le processus de déclaration et de paiement.",
-        technologies: ["Symfony", "PHP", "PostgreSQL", "Docker", "API REST", "Typescript"],
+        technologies: ["Symfony", "PHP", "PHPUnit", "Angular", "PostgreSQL", "Docker", "API REST", "Typescript"],
         link: "#"
     }
 
