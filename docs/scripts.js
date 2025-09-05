@@ -10,7 +10,7 @@ const projects = [
         name: "RPG 2D",
         description: "Jeu RPG en cours",
         extendedDescription: "Projet encore en cours, demande des connaissances en animation, rendu lumière, cohérence de gameplay.",
-        technologies: ["GdScript", "Godot Engine"],
+        technologies: ["GdScript", "Godot Engine", "UI", "Python", "Git"],
         link: "/"
     },
     {
