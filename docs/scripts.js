@@ -113,9 +113,9 @@ const projects = [
         "link": "#"
     },
     {
-        "name": "CGLLS",
+        "name": "GESCO",
         "description": "Application de gestion des cotisations des organismes de logement social.",
-        "extendedDescription": "CGLLS (Caisse de Garantie du Logement Locatif Social) est une application permettant aux organismes de logement social de déclarer et payer leurs cotisations. Dans le cadre de ma mission avec Ouidou, j’ai contribué au développement backend (Symfony, PostgreSQL), participé à la refonte et au débogage de modules métier, et intégré des optimisations techniques afin de fiabiliser le processus de déclaration et de paiement.",
+        "extendedDescription": "GESCO (Gestion des Cotisations des Organismes de Logement Social) est une application permettant aux organismes de logement social de déclarer et payer leurs cotisations. Dans le cadre de ma mission avec Ouidou, j’ai contribué au développement backend (Symfony, PostgreSQL), participé à la refonte et au débogage de modules métier, et intégré des optimisations techniques afin de fiabiliser le processus de déclaration et de paiement.",
         "technologies": ["Symfony", "PHP", "PostgreSQL", "Docker", "API REST", "Typescript"],
         "link": "#"
     }
