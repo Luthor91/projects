@@ -191,11 +191,21 @@ function filterProjectsByName() {
 // Fonction de filtrage des projets par technologies (via le menu déroulant)
 function filterProjectsByTech() {
     const selectedTech = document.getElementById('techDropdown').value.toLowerCase();
-    const filteredProjects = projects.filter(project => {
-        return project.technologies.some(tech => tech.toLowerCase() === selectedTech);
-    });
+
+    // Si aucune techno n'est sélectionnée → afficher tous les projets
+    if (selectedTech === "") {
+        displayProjects(projects);
+        return;
+    }
+
+    // Sinon → filtrer
+    const filteredProjects = projects.filter(project =>
+        project.technologies.some(tech => tech.toLowerCase() === selectedTech)
+    );
+
     displayProjects(filteredProjects);
 }
+
 
 // Extraire toutes les technologies avec leur fréquence
 function getTechnologiesWithFrequency() {
