@@ -16,7 +16,7 @@ serve:
 	$(PYTHON) -m http.server $(PORT)
 
 
-deploy: 
+deploy:
 	@git add .
-	@git commit -m "update data"
+	@git commit -m "update projects data"
 	@git push $(GIT_REPO)
