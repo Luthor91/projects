@@ -99,25 +99,25 @@ const projects = [
         link: "#"
     },
     {
-        "name": "DHPC",
-        "description": "Application permettant de configurer des campagnes pour les cotisations d'organismes sociaux.",
-        "extendedDescription": "Développée dans le cadre de missions réalisées avec Ouidou, DHPC est une application destinée à la configuration et à la gestion de campagnes liées aux cotisations sociales. J’y ai principalement contribué en Angular (front) et Symfony (back), avec des améliorations fonctionnelles et techniques permettant de renforcer l’ergonomie et la stabilité du produit. L’application repose sur une base PostgreSQL 13.",
-        "technologies": ["Angular", "Symfony", "PostgreSQL", "Docker", "API REST", "Typescript"],
-        "link": "#"
+        name: "DHPC",
+        description: "Application permettant de configurer des campagnes pour les cotisations d'organismes sociaux.",
+        extendedDescription: "Développée dans le cadre de missions réalisées avec Ouidou, DHPC est une application destinée à la configuration et à la gestion de campagnes liées aux cotisations sociales. J’y ai principalement contribué en Angular (front) et Symfony (back), avec des améliorations fonctionnelles et techniques permettant de renforcer l’ergonomie et la stabilité du produit. L’application repose sur une base PostgreSQL 13.",
+        technologies: ["Angular", "Symfony", "PostgreSQL", "Docker", "API REST", "Typescript"],
+        link: "#"
     },
     {
-        "name": "Innovarc",
-        "description": "Application permettant de gérer des projets médicaux et leurs membres.",
-        "extendedDescription": "Innovarc est une application développée pour la gestion de projets dans le domaine médical. Elle permet de créer, suivre et valider des projets tout en gérant les rôles attribués aux membres. Dans le cadre de ma mission avec Ouidou, j’ai traité des tickets de support, corrigé des bugs visuels et étudié la refonte de la gestion des rôles. L’architecture repose sur Symfony en back-end et Twig pour l’interface, avec une base MySQL 5.7.",
-        "technologies": ["Symfony", "Twig", "MySQL", "Docker", "API REST", "Typescript"],
-        "link": "#"
+        name: "Innovarc",
+        description: "Application permettant de gérer des projets médicaux et leurs membres.",
+        extendedDescription: "Innovarc est une application développée pour la gestion de projets dans le domaine médical. Elle permet de créer, suivre et valider des projets tout en gérant les rôles attribués aux membres. Dans le cadre de ma mission avec Ouidou, j’ai traité des tickets de support, corrigé des bugs visuels et étudié la refonte de la gestion des rôles. L’architecture repose sur Symfony en back-end et Twig pour l’interface, avec une base MySQL 5.7.",
+        technologies: ["Symfony", "Twig", "MySQL", "Docker", "API REST", "Typescript"],
+        link: "#"
     },
     {
-        "name": "GESCO",
-        "description": "Application de gestion des cotisations des organismes de logement social.",
-        "extendedDescription": "GESCO (Gestion des Cotisations des Organismes de Logement Social) est une application permettant aux organismes de logement social de déclarer et payer leurs cotisations. Dans le cadre de ma mission avec Ouidou, j’ai contribué au développement backend (Symfony, PostgreSQL), participé à la refonte et au débogage de modules métier, et intégré des optimisations techniques afin de fiabiliser le processus de déclaration et de paiement.",
-        "technologies": ["Symfony", "PHP", "PostgreSQL", "Docker", "API REST", "Typescript"],
-        "link": "#"
+        name: "GESCO",
+        description: "Application de gestion des cotisations des organismes de logement social.",
+        extendedDescription: "GESCO (Gestion des Cotisations des Organismes de Logement Social) est une application permettant aux organismes de logement social de déclarer et payer leurs cotisations. Dans le cadre de ma mission avec Ouidou, j’ai contribué au développement backend (Symfony, PostgreSQL), participé à la refonte et au débogage de modules métier, et intégré des optimisations techniques afin de fiabiliser le processus de déclaration et de paiement.",
+        technologies: ["Symfony", "PHP", "PostgreSQL", "Docker", "API REST", "Typescript"],
+        link: "#"
     }
 
 
