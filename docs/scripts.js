@@ -21,6 +21,20 @@ const projects = [
         link: "https://luthor91.github.io/aboutme/docs/news/"
     },
     {
+        name: "Stuffu",
+        description: "Un petit site web statique permettant à des utilisateurs de récupérer des informations pour un jeu.",
+        extendedDescription: "Stuffu est un site web statique qui permet aux utilisateurs de récupérer des informations pour un jeu. Le site a été commandé par un streamer du jeu en question. Le site est accessible depuis ce lien : https://ittle-dew.github.io/Stuffu/",
+        technologies: ["JavaScript", "HTML", "CSS"],
+        link: "https://ittle-dew.github.io/Stuffu/"
+    },
+    {
+        name: "StuffuDesktop",
+        description: "Une petite application privée permettant de faciliter les modifications de datas sur le site https://ittle-dew.github.io/Stuffu/, permet d'insérer et supprimer des datas sur le repo github du site.",
+        extendedDescription: "StuffuDesktop est une application de bureau qui facilite la gestion des données pour le site web Stuffu. Elle permet aux utilisateurs d'ajouter ou de supprimer des données directement dans le dépôt GitHub du site, simplifiant ainsi le processus de mise à jour du contenu. L'application est conçue pour être conviviale et accessible, offrant une interface intuitive pour gérer les informations sans avoir à interagir directement avec GitHub.",
+        technologies: ["JavaScript", "HTML", "CSS", "Golang"],
+        link: "#"
+    },
+    {
         name: "Maze_Solver",
         description: "Un générateur et solveur de labyrinthes utilisant 3 algorithmes de recherches, DFS, BFS et A*.",
         extendedDescription: "Maze_Solver est un projet combinant génération et résolution de labyrinthes, avec la possibilité de comparer les performances des algorithmes DFS, BFS, et A*. L'interface permet de régler la taille visuelle du labyrinthe, de manière à adapter le nombre de cases à la taille de la fenêtre, assurant ainsi une visualisation optimale. Le labyrinthe est généré de manière aléatoire à chaque lancement, et des statistiques sont affichées pour comparer le temps d'exécution des différents algorithmes de recherche.",
