@@ -27,6 +27,13 @@ const projects = [
         technologies: ["JavaScript", "HTML", "CSS"],
         link: "https://ittle-dew.github.io/Stuffu/"
     },
+        {
+        name: "Wakdraft",
+        description: "Application Web poussée, permettant d'aider les joueurs de Wakfu à construire leur équipe.",
+        extendedDescription: "Wakdraft est une application avec une gestion des comptes utilisateur, un panel admin, intégrant un algorithme d'optimisation d'équipe, hébergé chez OVH.",
+        technologies: ["Golang", "Bash", "Git", "Déploiement", "Docker", "Vue", "Typescript", "HTML", "CSS"],
+        link: "www.wakdraft.com"
+    },
     {
         name: "StuffuDesktop",
         description: "Une petite application privée permettant de faciliter les modifications de datas sur le site https://ittle-dew.github.io/Stuffu/, permet d'insérer et supprimer des datas sur le repo github du site.",
@@ -89,13 +96,6 @@ const projects = [
         extendedDescription: "WakfuTeamBuilder est une application terminé et disponible à tous permettant d'avoir des informations sur son équipe de personnage sur le MMORPG Wakfu, l'application permet de lister les points fort et faible de l'équipe. Liens de l'application : https://luthor91.github.io/WakfuTeamBuilder/builder/",
         technologies: ["Javascript", "Makefile"],
         link: "https://github.com/Luthor91/WakfuTeamBuilder"
-    },
-    {
-        name: "WakfuDraft",
-        description: "Application Web poussée, permettant d'aider les joueurs de Wakfu à construire leur équipe.",
-        extendedDescription: "WakfuDraft est une application en cours, la refonte de WakfuTeamBuilder, l'application aura les mêmes features que l'ancienne avec une gestion des comptes utilisateur, un panel admin et géré comme un projet sérieux avec un hébergement et un réel nom de domaine. L'application est actuellement terminé, il ne reste que l'hébergement.",
-        technologies: ["Typescript", "Golang", "API REST", "Vue", "Docker", "Bash", "Postgresql", "Makefile"],
-        link: "https://github.com/Luthor91/WakDraft"
     },
     // Projets en équipe
     {
